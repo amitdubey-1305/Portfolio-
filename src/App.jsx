@@ -82,13 +82,17 @@ function App() {
         transition={{ duration: 0.8, ease: "easeOut" }}
       >
         <motion.div variants={containerVariants} initial="hidden" animate="visible">
-          <motion.img
-            src={profileImage}
-            alt="Profile"
-            className="profile-img"
+          <motion.div
+            className="profile-img-wrapper"
             variants={itemVariants}
             whileHover={{ scale: 1.05, boxShadow: "0 0 35px rgba(0, 210, 255, 0.6)", rotate: 2 }}
-          />
+          >
+            <img
+              src={profileImage}
+              alt="Profile"
+              className="profile-img"
+            />
+          </motion.div>
 
           <motion.h1 className="title hero-title" variants={itemVariants}>
             Amit <span className="highlight-text">Dubey</span>
