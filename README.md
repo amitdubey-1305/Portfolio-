@@ -1,16 +1,34 @@
-# React + Vite
+# Amit Dubey Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive portfolio website built using React, Vite, and Framer Motion. 
+It highlights the skills, projects, and professional background of Amit Dubey, a Software Engineer and Full Stack Developer.
 
-Currently, two official plugins are available:
+## Features
+- **Interactive UI**: Built with Framer Motion for smooth and engaging animations.
+- **Responsive Design**: Designed to work seamlessly across desktop and mobile devices.
+- **Glassmorphism Aesthetic**: Uses modern glass container styling for a premium feel.
+- **Downloadable Resume**: Direct link to download the latest professional resume.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Technologies Used
+- React.js
+- Vite
+- Framer Motion
+- React Icons
 
-## React Compiler
+## Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+To run the project locally:
 
-## Expanding the ESLint configuration
+1. Clone the repository.
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Documentation
+- The portfolio is continuously updated with the latest projects and a current resume.
+- Profile picture and resume are stored in the `src/assets` directory and referenced in `App.jsx`.
