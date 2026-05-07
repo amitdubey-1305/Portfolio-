@@ -44,7 +44,7 @@
   font-size: 3rem;
   font-weight: 800;
   margin: 0;
-  background: -webkit-linear-gradient(45deg, #ffffff, var(--accent));
+  background: -webkit-linear-gradient(45deg, var(--text-primary), var(--accent));
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -240,7 +240,7 @@
 
 .highlight-text {
   color: var(--accent);
-  background: -webkit-linear-gradient(45deg, var(--accent), #fff);
+  background: -webkit-linear-gradient(45deg, var(--accent), var(--text-primary));
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -249,7 +249,7 @@
 .hero-subtitle {
   font-size: 1.25rem;
   font-weight: 500;
-  color: #e0e0e0;
+  color: var(--text-secondary);
   margin-top: 1rem;
   margin-bottom: 0.5rem;
   text-transform: uppercase;
@@ -287,7 +287,7 @@
 }
 
 .primary-btn {
-  background: linear-gradient(135deg, var(--accent), #0077ff);
-  color: #0f2027;
+  background: linear-gradient(135deg, var(--accent), #2563eb);
+  color: #ffffff;
   border: none;
 }
