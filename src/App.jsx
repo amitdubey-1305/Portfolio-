@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import profileImage from './assets/pic.png'
-import resumePdf from './assets/Amit_Resume.pdf'
+import resumePdf from './assets/Amit_Dubey.pdf'
 import { FaPython, FaJava, FaNodeJs, FaReact, FaDocker, FaGitAlt, FaHtml5, FaCss3Alt, FaGithub, FaLinkedin, FaEnvelope, FaTwitter, FaWhatsapp, FaDownload, FaTrophy, FaMedal } from 'react-icons/fa'
 import { FaBrain } from 'react-icons/fa6'
 import { SiJavascript, SiTypescript, SiMysql, SiExpress, SiMongodb, SiGeeksforgeeks, SiNextdotjs, SiRedux, SiTailwindcss, SiFastapi, SiVercel, SiPostman, SiMongodb as SiMongoose } from 'react-icons/si'
